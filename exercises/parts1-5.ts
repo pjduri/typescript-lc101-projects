@@ -20,8 +20,8 @@ class Spacecraft {
     milesPerKilometer: number = 0.621
     name: string
     speedMph: number
-    constructor(shuttleName: string, speedMph: number) {
-        this.name = shuttleName
+    constructor(name: string, speedMph: number) {
+        this.name = name
         this.speedMph = speedMph
     }
     getDaysToLocation (kilometersAway: number): number {

@@ -13,9 +13,9 @@ var kilometersToTheMoon = 384400;
 // the function and print the outputs for a Mars trip and a moon trip.
 // Part 4: Create a Spacecraft Class
 var Spacecraft = /** @class */ (function () {
-    function Spacecraft(shuttleName, speedMph) {
+    function Spacecraft(name, speedMph) {
         this.milesPerKilometer = 0.621;
-        this.name = shuttleName;
+        this.name = name;
         this.speedMph = speedMph;
     }
     Spacecraft.prototype.getDaysToLocation = function (kilometersAway) {
